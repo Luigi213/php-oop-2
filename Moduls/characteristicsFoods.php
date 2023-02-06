@@ -1,11 +1,11 @@
 <?php
     class characteristicsFoods extends products {
-        public $weights;
-        public $ingredients;
-        public function __construct($image, $price, $breed, $weight, $ingredient){
-            parent::__construct($image, $price, $breed);
-            $this->weights = $weight;
-            $this->ingredients = $ingredient;
+        public $weight;
+        public $ingredient;
+        public function __construct($images, $titles, $prices, $breed, $weights, $ingredients){
+            parent::__construct($images, $titles, $prices, $breed);
+            $this->weight = $weights;
+            $this->ingredient = $ingredients;
         }
     }
 ?>

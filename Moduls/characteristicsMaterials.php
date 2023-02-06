@@ -1,11 +1,11 @@
 <?php
     class characteristicsMaterials extends products {
-        public $materials;
-        public $dimensions;
-        public function __construct($image, $price, $breed, $material, $dimension){
-            parent::__construct($image, $price, $breed);
-            $this->materials = $material;
-            $this->dimensions = $dimension;
+        public $material;
+        public $dimension;
+        public function __construct($images, $titles, $prices, $breed, $materials, $dimensions){
+            parent::__construct($images, $titles, $prices, $breed);
+            $this->material = $materials;
+            $this->dimension = $dimensions;
         }
     }
 ?>

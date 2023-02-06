@@ -1,0 +1,13 @@
+img:not(#sp-img) {
+    height: 500px;
+    object-fit: contain;
+}
+
+#sp-img {
+    height: 476px;
+    object-fit: contain;
+}
+
+h2 {
+    margin-top: 200px;
+}

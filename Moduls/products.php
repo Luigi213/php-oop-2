@@ -1,11 +1,13 @@
 <?php
     class products {
-        public $images;
-        public $prices;
+        public $image;
+        public $title;
+        public $price;
         public $breed;
-        public function __construct($image, $price, $breed){
-            $this->images = $image;
-            $this->prices = $price;
+        public function __construct($images, $titles, $prices, $breed){
+            $this->image = $images;
+            $this->title = $titles;
+            $this->price = $prices;
             $this->breed = $breed;
         }
     }
