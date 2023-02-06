@@ -16,10 +16,7 @@
             <div class="row">
                 <div class="col-12">
                     <?php 
-                        $prodotto = new products('ciao');
-                        var_dump($prodotto);
-                        $razza = new category('ciao','saluto');
-                        var_dump($razza);
+                        echo $razza->breed;
                     ?>
                 </div>
             </div>
